@@ -4,6 +4,8 @@ from openai import OpenAI
 # ===============================
 # CONFIGURACIÓN GENERAL
 # ===============================
+#
+st.set_page_config(page_title="Quantum University", page_icon="🧑‍🎓", layout="wide")
 
 st.set_page_config(
     page_title="Quantum-Friends",
@@ -151,3 +153,4 @@ for msg in st.session_state.messages[1:]:
         st.markdown(f"**Tú:** {msg['content']}")
     else:
         st.markdown(f"**Quantum-Friends:** {msg['content']}")
+
