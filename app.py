@@ -18,6 +18,14 @@ MODEL_NAME = "gpt-4.1-mini"
 MAX_TOKENS = 300
 TEMPERATURE = 0.7
 
+st.markdown("---")
+    # Contador de Visitas (Mentalidad de Crecimiento)
+st.markdown("""
+    <div style="background-color: #2e1a47; padding: 10px; border-radius: 5px; text-align: center;">
+        <span style="color: #E0B0FF; font-weight: bold;">🧘 Alumnos Atendidos:</span>
+        <img src="https://api.visitorbadge.io/api/visitors?path=quantum-friends.com&label=&countColor=%23E0B0FF&style=flat&labelStyle=none" style="height: 20px;" />
+    </div>
+    """, unsafe_allow_html=True)
 
 # ===============================
 # PROMPT BASE (IDENTIDAD)
